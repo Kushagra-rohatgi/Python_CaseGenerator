@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+</head>
+<body>
+    <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
+        <h1>Case Study Generator</h1>
+        
+        <div style="margin-bottom: 20px;">
+            <h3>Test Server Status</h3>
+            <button onclick="testServer()">Test Server</button>
+            <pre id="testResult" style="background: #f4f4f4; padding: 10px; display: none;"></pre>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <h3>Generate Case Study</h3>
+            <form id="generateForm">
+                <div style="margin-bottom: 10px;">
+                    <label for="industry">Industry:</label>
+                    <select id="industry" required>
+                        <option value="Technology">Technology</option>
+                        <option value="Healthcare">Healthcare</option>
+                        <option value="E-commerce">E-commerce</option>
+                        <option value="Finance">Finance</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="role">Role:</label>
+                    <input type="text" id="role" value="Product Manager" required>
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="difficulty">Difficulty:</label>
+                    <select id="difficulty" required>
+                        <option value="Easy">Easy</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Hard">Hard</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="focus_area">Focus Area:</label>
+                    <select id="focus_area" required>
+                        <option value="Product Strategy">Product Strategy</option>
+                        <option value="User Research">User Research</option>
+                        <option value="Feature Prioritization">Feature Prioritization</option>
+                        <option value="Market Analysis">Market Analysis</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="company_size">Company Size:</label>
+                    <select id="company_size" required>
+                        <option value="Startup">Startup</option>
+                        <option value="Mid-size">Mid-size</option>
+                        <option value="Enterprise">Enterprise</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="product_type">Product Type:</label>
+                    <select id="product_type" required>
+                        <option value="B2B SaaS">B2B SaaS</option>
+                        <option value="Consumer App">Consumer App</option>
+                        <option value="Marketplace">Marketplace</option>
+                    </select>
+                </div>
+
+                <button type="submit">Generate Case Study</button>
+            </form>
+        </div>
+
+        <div id="loadingIndicator" style="display: none;">
+            Generating case study... Please wait...
+        </div>
+
+        <div id="result" style="display: none;">
+            <h3>Generated Case Study</h3>
+            <pre id="caseStudyResult" style="background: #f4f4f4; padding: 10px; white-space: pre-wrap;"></pre>
+            
+            <h3>Questions and Answers</h3>
+            <div id="qaResult"></div>
+        </div>
+    </div>
+
+    <script>
+        async function testServer() {
+            const testResult = document.getElementById('testResult');
+            testResult.style.display = 'block';
+            
+            try {
+                const response = await fetch('http://localhost:3000/test');
+                const data = await response.json();
+                testResult.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                testResult.textContent = `Error: ${error.message}`;
+            }
+        }
+
+        document.getElementById('generateForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const loadingIndicator = document.getElementById('loadingIndicator');
+            const result = document.getElementById('result');
+            const caseStudyResult = document.getElementById('caseStudyResult');
+            const qaResult = document.getElementById('qaResult');
+            
+            loadingIndicator.style.display = 'block';
+            result.style.display = 'none';
+            
+            const parameters = {
+                industry: document.getElementById('industry').value,
+                role: document.getElementById('role').value,
+                difficulty: document.getElementById('difficulty').value,
+                focus_area: document.getElementById('focus_area').value,
+                company_size: document.getElementById('company_size').value,
+                product_type: document.getElementById('product_type').value
+            };
+
+            try {
+                const response = await fetch('http://localhost:3000/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ parameters })
+                });
+
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+
+                caseStudyResult.textContent = data.case_study;
+                
+                // Display Q&A
+                qaResult.innerHTML = data.questions_and_answers.map((qa, index) => `
+                    <div style="margin-bottom: 20px;">
+                        <h4>Question ${index + 1}:</h4>
+                        <p>${qa.question}</p>
+                        <h4>Answer:</h4>
+                        <p>${qa.answer}</p>
+                    </div>
+                `).join('');
+
+                result.style.display = 'block';
+            } catch (error) {
+                caseStudyResult.textContent = `Error: ${error.message}`;
+                result.style.display = 'block';
+            } finally {
+                loadingIndicator.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

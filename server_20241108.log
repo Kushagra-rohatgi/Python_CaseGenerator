@@ -1,0 +1,631 @@
+2024-11-08 23:32:31,968 - INFO - Starting server initialization...
+2024-11-08 23:32:31,969 - INFO - Environment variables loaded successfully
+2024-11-08 23:32:31,969 - INFO - Initializing Firebase...
+2024-11-08 23:32:31,969 - ERROR - Firebase config file not found at ./firebase-config/serviceAccountKey.json
+2024-11-08 23:32:31,969 - ERROR - Error initializing Firebase: Firebase config file not found at ./firebase-config/serviceAccountKey.json
+2024-11-08 23:35:09,435 - INFO - Starting server initialization...
+2024-11-08 23:35:09,435 - INFO - Environment variables loaded successfully
+2024-11-08 23:35:09,435 - INFO - Initializing Firebase...
+2024-11-08 23:35:09,554 - INFO - Firebase initialized successfully
+2024-11-08 23:35:09,554 - INFO - Loading spaCy model...
+2024-11-08 23:35:09,554 - WARNING - spaCy model not found, downloading...
+2024-11-08 23:36:47,934 - INFO - spaCy model downloaded and loaded
+2024-11-08 23:36:47,934 - INFO - Initializing ChromaDB...
+2024-11-08 23:36:47,935 - INFO - Created ChromaDB directory at ./chroma_db
+2024-11-08 23:36:47,955 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-11-08 23:36:48,380 - INFO - Created new ChromaDB collection
+2024-11-08 23:36:48,380 - INFO - ChromaDB initialized successfully
+2024-11-08 23:36:48,430 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.17.78.171:3000
+2024-11-08 23:36:48,435 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-08 23:36:48,437 - INFO -  * Restarting with stat
+2024-11-08 23:36:49,807 - INFO - Starting server initialization...
+2024-11-08 23:36:49,808 - INFO - Environment variables loaded successfully
+2024-11-08 23:36:49,808 - INFO - Initializing Firebase...
+2024-11-08 23:36:49,917 - INFO - Firebase initialized successfully
+2024-11-08 23:36:49,917 - INFO - Loading spaCy model...
+2024-11-08 23:36:51,094 - INFO - spaCy model loaded successfully
+2024-11-08 23:36:51,095 - INFO - Initializing ChromaDB...
+2024-11-08 23:36:51,108 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-11-08 23:36:51,221 - INFO - Retrieved existing ChromaDB collection
+2024-11-08 23:36:51,221 - INFO - ChromaDB initialized successfully
+2024-11-08 23:36:51,239 - WARNING -  * Debugger is active!
+2024-11-08 23:36:51,254 - INFO -  * Debugger PIN: 518-862-971
+2024-11-08 23:41:43,995 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:43] "OPTIONS /generate HTTP/1.1" 200 -
+2024-11-08 23:41:44,005 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:41:44,007 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:41:44,007 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:41:44,007 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:41:44,007 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:41:44,007 - ERROR - Error parsing PDF: name 'fitz' is not defined
+2024-11-08 23:41:44,007 - ERROR - Error in generate endpoint: name 'fitz' is not defined
+2024-11-08 23:41:44,008 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:44] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2024-11-08 23:41:45,878 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:41:45,879 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:41:45,879 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:41:45,879 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:41:45,879 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:41:45,879 - ERROR - Error parsing PDF: name 'fitz' is not defined
+2024-11-08 23:41:45,879 - ERROR - Error in generate endpoint: name 'fitz' is not defined
+2024-11-08 23:41:45,880 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:45] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2024-11-08 23:41:47,679 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:41:47,682 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:41:47,682 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:41:47,682 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:41:47,682 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:41:47,682 - ERROR - Error parsing PDF: name 'fitz' is not defined
+2024-11-08 23:41:47,682 - ERROR - Error in generate endpoint: name 'fitz' is not defined
+2024-11-08 23:41:47,685 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:47] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2024-11-08 23:41:48,342 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:41:48,343 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:41:48,343 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:41:48,343 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:41:48,344 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:41:48,344 - ERROR - Error parsing PDF: name 'fitz' is not defined
+2024-11-08 23:41:48,344 - ERROR - Error in generate endpoint: name 'fitz' is not defined
+2024-11-08 23:41:48,345 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:48] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2024-11-08 23:41:50,365 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:50] "OPTIONS /generate HTTP/1.1" 200 -
+2024-11-08 23:41:50,367 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:41:50,368 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:41:50,368 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:41:50,368 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:41:50,368 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:41:50,368 - ERROR - Error parsing PDF: name 'fitz' is not defined
+2024-11-08 23:41:50,368 - ERROR - Error in generate endpoint: name 'fitz' is not defined
+2024-11-08 23:41:50,368 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:50] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2024-11-08 23:41:51,896 - INFO - Test endpoint called
+2024-11-08 23:41:51,897 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:51] "GET /test HTTP/1.1" 200 -
+2024-11-08 23:41:53,498 - INFO - Test endpoint called
+2024-11-08 23:41:53,499 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:53] "GET /test HTTP/1.1" 200 -
+2024-11-08 23:41:54,358 - INFO - Test endpoint called
+2024-11-08 23:41:54,373 - INFO - 127.0.0.1 - - [08/Nov/2024 23:41:54] "GET /test HTTP/1.1" 200 -
+2024-11-08 23:42:13,232 - INFO -  * Detected change in '/Users/kushagra/Downloads/CaseForge-main/caseforge-backend/vectorizer_with_gemini.py', reloading
+2024-11-08 23:42:14,379 - INFO -  * Restarting with stat
+2024-11-08 23:50:56,173 - INFO - Starting server initialization...
+2024-11-08 23:50:56,174 - INFO - Environment variables loaded successfully
+2024-11-08 23:50:56,174 - INFO - Initializing Firebase...
+2024-11-08 23:50:56,299 - INFO - Firebase initialized successfully
+2024-11-08 23:50:56,299 - INFO - Loading spaCy model...
+2024-11-08 23:50:57,499 - INFO - spaCy model loaded successfully
+2024-11-08 23:50:57,500 - INFO - Initializing ChromaDB...
+2024-11-08 23:50:57,528 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-11-08 23:50:57,714 - INFO - Retrieved existing ChromaDB collection
+2024-11-08 23:50:57,714 - INFO - ChromaDB initialized successfully
+2024-11-08 23:50:57,774 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.17.78.171:3000
+2024-11-08 23:50:57,775 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-08 23:50:57,776 - INFO -  * Restarting with stat
+2024-11-08 23:50:59,150 - INFO - Starting server initialization...
+2024-11-08 23:50:59,150 - INFO - Environment variables loaded successfully
+2024-11-08 23:50:59,150 - INFO - Initializing Firebase...
+2024-11-08 23:50:59,260 - INFO - Firebase initialized successfully
+2024-11-08 23:50:59,260 - INFO - Loading spaCy model...
+2024-11-08 23:51:00,426 - INFO - spaCy model loaded successfully
+2024-11-08 23:51:00,426 - INFO - Initializing ChromaDB...
+2024-11-08 23:51:00,438 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-11-08 23:51:00,607 - INFO - Retrieved existing ChromaDB collection
+2024-11-08 23:51:00,608 - INFO - ChromaDB initialized successfully
+2024-11-08 23:51:00,633 - WARNING -  * Debugger is active!
+2024-11-08 23:51:00,656 - INFO -  * Debugger PIN: 518-862-971
+2024-11-08 23:51:15,792 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:15] "OPTIONS /generate HTTP/1.1" 200 -
+2024-11-08 23:51:15,836 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:51:15,837 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:51:15,837 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:51:15,837 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:51:15,838 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:51:15,904 - INFO - Successfully parsed PDF, extracted 6752 characters
+2024-11-08 23:51:15,904 - INFO - Successfully processed file 1
+2024-11-08 23:51:15,904 - INFO - Storing vectors in ChromaDB...
+2024-11-08 23:51:15,904 - INFO - Storing vectors for 1 case studies
+2024-11-08 23:51:15,904 - INFO - Vectorizing text of length: 6746
+2024-11-08 23:51:16,425 - INFO - Text vectorized successfully
+2024-11-08 23:51:16,475 - INFO - Vectors stored successfully in ChromaDB
+2024-11-08 23:51:16,475 - INFO - Finding similar case study...
+2024-11-08 23:51:16,475 - INFO - Vectorizing text of length: 40
+2024-11-08 23:51:16,488 - INFO - Text vectorized successfully
+2024-11-08 23:51:16,488 - INFO - Searching for similar case studies
+2024-11-08 23:51:16,498 - INFO - Similar case study found
+2024-11-08 23:51:16,499 - INFO - Generating new case study...
+2024-11-08 23:51:16,499 - INFO - Generating case study with Gemini API
+2024-11-08 23:51:16,499 - INFO - Sending request to Gemini API...
+2024-11-08 23:51:18,194 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:51:18,201 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:51:18,202 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:51:18,203 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:51:18,203 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:51:18,294 - INFO - Successfully parsed PDF, extracted 6752 characters
+2024-11-08 23:51:18,294 - INFO - Successfully processed file 1
+2024-11-08 23:51:18,295 - INFO - Storing vectors in ChromaDB...
+2024-11-08 23:51:18,295 - INFO - Storing vectors for 1 case studies
+2024-11-08 23:51:18,295 - INFO - Vectorizing text of length: 6746
+2024-11-08 23:51:18,786 - INFO - Text vectorized successfully
+2024-11-08 23:51:18,803 - WARNING - Add of existing embedding ID: 0
+2024-11-08 23:51:18,803 - WARNING - Insert of existing embedding ID: 0
+2024-11-08 23:51:18,806 - INFO - Vectors stored successfully in ChromaDB
+2024-11-08 23:51:18,806 - INFO - Finding similar case study...
+2024-11-08 23:51:18,807 - INFO - Vectorizing text of length: 40
+2024-11-08 23:51:18,815 - INFO - Text vectorized successfully
+2024-11-08 23:51:18,815 - INFO - Searching for similar case studies
+2024-11-08 23:51:18,820 - INFO - Similar case study found
+2024-11-08 23:51:18,820 - INFO - Generating new case study...
+2024-11-08 23:51:18,820 - INFO - Generating case study with Gemini API
+2024-11-08 23:51:18,820 - INFO - Sending request to Gemini API...
+2024-11-08 23:51:20,090 - INFO - Test endpoint called
+2024-11-08 23:51:20,101 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:20] "GET /test HTTP/1.1" 200 -
+2024-11-08 23:51:21,867 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:21] "OPTIONS /generate HTTP/1.1" 200 -
+2024-11-08 23:51:21,872 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:51:21,877 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:51:21,879 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:51:21,879 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:51:21,879 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:51:21,926 - INFO - Successfully parsed PDF, extracted 6752 characters
+2024-11-08 23:51:21,926 - INFO - Successfully processed file 1
+2024-11-08 23:51:21,926 - INFO - Storing vectors in ChromaDB...
+2024-11-08 23:51:21,926 - INFO - Storing vectors for 1 case studies
+2024-11-08 23:51:21,927 - INFO - Vectorizing text of length: 6746
+2024-11-08 23:51:22,392 - INFO - Text vectorized successfully
+2024-11-08 23:51:22,404 - WARNING - Add of existing embedding ID: 0
+2024-11-08 23:51:22,405 - WARNING - Insert of existing embedding ID: 0
+2024-11-08 23:51:22,409 - INFO - Vectors stored successfully in ChromaDB
+2024-11-08 23:51:22,409 - INFO - Finding similar case study...
+2024-11-08 23:51:22,409 - INFO - Vectorizing text of length: 40
+2024-11-08 23:51:22,416 - INFO - Text vectorized successfully
+2024-11-08 23:51:22,416 - INFO - Searching for similar case studies
+2024-11-08 23:51:22,422 - INFO - Similar case study found
+2024-11-08 23:51:22,423 - INFO - Generating new case study...
+2024-11-08 23:51:22,423 - INFO - Generating case study with Gemini API
+2024-11-08 23:51:22,423 - INFO - Sending request to Gemini API...
+2024-11-08 23:51:23,388 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:51:23,389 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:51:23,389 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:51:23,389 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:51:23,389 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:51:23,468 - INFO - Successfully parsed PDF, extracted 6752 characters
+2024-11-08 23:51:23,469 - INFO - Successfully processed file 1
+2024-11-08 23:51:23,469 - INFO - Storing vectors in ChromaDB...
+2024-11-08 23:51:23,469 - INFO - Storing vectors for 1 case studies
+2024-11-08 23:51:23,469 - INFO - Vectorizing text of length: 6746
+2024-11-08 23:51:23,758 - INFO - Text vectorized successfully
+2024-11-08 23:51:23,766 - WARNING - Add of existing embedding ID: 0
+2024-11-08 23:51:23,767 - WARNING - Insert of existing embedding ID: 0
+2024-11-08 23:51:23,768 - INFO - Vectors stored successfully in ChromaDB
+2024-11-08 23:51:23,768 - INFO - Finding similar case study...
+2024-11-08 23:51:23,768 - INFO - Vectorizing text of length: 40
+2024-11-08 23:51:23,777 - INFO - Text vectorized successfully
+2024-11-08 23:51:23,777 - INFO - Searching for similar case studies
+2024-11-08 23:51:23,780 - INFO - Similar case study found
+2024-11-08 23:51:23,780 - INFO - Generating new case study...
+2024-11-08 23:51:23,780 - INFO - Generating case study with Gemini API
+2024-11-08 23:51:23,781 - INFO - Sending request to Gemini API...
+2024-11-08 23:51:24,844 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:51:24,845 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:51:24,845 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:51:24,845 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:51:24,845 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:51:25,165 - INFO - Successfully parsed PDF, extracted 6752 characters
+2024-11-08 23:51:25,165 - INFO - Successfully processed file 1
+2024-11-08 23:51:25,166 - INFO - Storing vectors in ChromaDB...
+2024-11-08 23:51:25,166 - INFO - Storing vectors for 1 case studies
+2024-11-08 23:51:25,166 - INFO - Vectorizing text of length: 6746
+2024-11-08 23:51:25,630 - INFO - Text vectorized successfully
+2024-11-08 23:51:25,671 - WARNING - Add of existing embedding ID: 0
+2024-11-08 23:51:25,672 - WARNING - Insert of existing embedding ID: 0
+2024-11-08 23:51:25,676 - INFO - Vectors stored successfully in ChromaDB
+2024-11-08 23:51:25,676 - INFO - Finding similar case study...
+2024-11-08 23:51:25,676 - INFO - Vectorizing text of length: 40
+2024-11-08 23:51:25,688 - INFO - Text vectorized successfully
+2024-11-08 23:51:25,688 - INFO - Searching for similar case studies
+2024-11-08 23:51:25,697 - INFO - Similar case study found
+2024-11-08 23:51:25,698 - INFO - Generating new case study...
+2024-11-08 23:51:25,698 - INFO - Generating case study with Gemini API
+2024-11-08 23:51:25,699 - INFO - Sending request to Gemini API...
+2024-11-08 23:51:28,324 - INFO - Gemini API response status: 200
+2024-11-08 23:51:28,327 - INFO - Successfully generated case study of length: 4078
+2024-11-08 23:51:28,337 - INFO - Generating Q&A...
+2024-11-08 23:51:28,337 - INFO - Generating Q&A with Gemini API
+2024-11-08 23:51:28,337 - INFO - Sending request to Gemini API for Q&A...
+2024-11-08 23:51:28,687 - INFO - Gemini API response status: 200
+2024-11-08 23:51:28,687 - INFO - Successfully generated case study of length: 3578
+2024-11-08 23:51:28,687 - INFO - Generating Q&A...
+2024-11-08 23:51:28,687 - INFO - Generating Q&A with Gemini API
+2024-11-08 23:51:28,687 - INFO - Sending request to Gemini API for Q&A...
+2024-11-08 23:51:32,563 - INFO - Gemini API response status: 200
+2024-11-08 23:51:32,563 - INFO - Successfully generated case study of length: 3540
+2024-11-08 23:51:32,563 - INFO - Generating Q&A...
+2024-11-08 23:51:32,563 - INFO - Generating Q&A with Gemini API
+2024-11-08 23:51:32,563 - INFO - Sending request to Gemini API for Q&A...
+2024-11-08 23:51:33,638 - INFO - Gemini API Q&A response status: 200
+2024-11-08 23:51:33,639 - INFO - Raw Q&A response: [
+  {
+    "question": "What was the primary reason for Collab to revamp its collaboration platform?",
+    "answer": "As remote work became increasingly prevalent, Collab's existing platform lacked features tailored to remote teams, leading to communication gaps and inefficiencies."
+  },
+  {
+    "question": "What was the high-level goal of Collab's platform optimization?",
+    "answer": "To drive collaboration and productivity, foster employee engagement, and ensure data security and privacy."
+  },
+  {
+    "question": "Which aspect of collaboration did Collab seek to enhance with its revamped platform?",
+    "answer": "Communication channels, project management, and knowledge sharing."
+  },
+  {
+    "question": "What key metric did Collab use to measure user satisfaction with its platform?",
+    "answer": "User satisfaction, measured through surveys or feedback mechanisms."
+  },
+  {
+    "question": "What specific security measures were implemented in the new platform to safeguard user data?",
+    "answer": "End-to-end encryption, two-factor authentication, and real-time monitoring."
+  }
+]
+2024-11-08 23:51:33,639 - INFO - Successfully generated 5 Q&A pairs
+2024-11-08 23:51:33,639 - INFO - Q&A generation completed. Generated 5 pairs
+2024-11-08 23:51:33,639 - INFO - === Generate endpoint completed successfully ===
+
+2024-11-08 23:51:33,640 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:33] "POST /generate HTTP/1.1" 200 -
+2024-11-08 23:51:34,018 - INFO - Gemini API response status: 200
+2024-11-08 23:51:34,019 - INFO - Successfully generated case study of length: 3408
+2024-11-08 23:51:34,019 - INFO - Generating Q&A...
+2024-11-08 23:51:34,019 - INFO - Generating Q&A with Gemini API
+2024-11-08 23:51:34,019 - INFO - Sending request to Gemini API for Q&A...
+2024-11-08 23:51:36,304 - INFO - Gemini API Q&A response status: 200
+2024-11-08 23:51:36,307 - INFO - Raw Q&A response: [
+  {
+    "question": "What were the key objectives of the daily steps tracking feature's product strategy?",
+    "answer": "The product strategy for the daily steps tracking feature focused on three key objectives: 1. Improving user engagement and retention, 2. Providing personalized insights and recommendations to users, and 3. Supporting FitTech's mission of promoting public health."
+  },
+  {
+    "question": "How did FitTech measure the success of the daily steps tracking feature?",
+    "answer": "FitTech utilized various metrics to assess the success of the daily steps tracking feature. These metrics included user acquisition and retention rates, user adoption and engagement levels, user satisfaction scores, growth rates, and revenue and monetization."
+  },
+  {
+    "question": "How was the daily steps tracking feature implemented into the FitTech app?",
+    "answer": "The daily steps tracking feature was seamlessly integrated into the FitTech app. Users could easily access it from the app's home screen, making it highly discoverable. The feature also leveraged the device's built-in sensors for accurate step tracking."
+  },
+  {
+    "question": "What positive impacts did the daily steps tracking feature have on user trust and privacy?",
+    "answer": "FitTech prioritized user privacy by ensuring that all data collected through the daily steps tracking feature was securely stored and solely used to provide personalized insights to users. This approach enhanced user trust and reinforced FitTech's commitment to protecting user data."
+  },
+  {
+    "question": "How did the daily steps tracking feature contribute to FitTech's broader business objectives?",
+    "answer": "The daily steps tracking feature not only enhanced the user experience but also supported FitTech's broader business objectives. It contributed to improved public health outcomes by encouraging users to become more physically active. Moreover, the feature's positive impact on user engagement and satisfaction led to increased app usage and reduced churn, further driving long-term engagement and retention."
+  }
+]
+2024-11-08 23:51:36,307 - INFO - Successfully generated 5 Q&A pairs
+2024-11-08 23:51:36,308 - INFO - Q&A generation completed. Generated 5 pairs
+2024-11-08 23:51:36,308 - INFO - === Generate endpoint completed successfully ===
+
+2024-11-08 23:51:36,309 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:36] "POST /generate HTTP/1.1" 200 -
+2024-11-08 23:51:37,338 - INFO - Gemini API response status: 200
+2024-11-08 23:51:37,338 - INFO - Successfully generated case study of length: 4064
+2024-11-08 23:51:37,338 - INFO - Generating Q&A...
+2024-11-08 23:51:37,338 - INFO - Generating Q&A with Gemini API
+2024-11-08 23:51:37,338 - INFO - Sending request to Gemini API for Q&A...
+2024-11-08 23:51:39,587 - INFO - Gemini API Q&A response status: 200
+2024-11-08 23:51:39,599 - INFO - Raw Q&A response: [
+  {
+    "question": "What is the **product strategy** for enhancing the daily step tracking feature in the Apple Health app?",
+    "answer": "The product strategy for improving the daily step tracking feature in the Apple Health app is three-fold: **enhancing user experience (UX)**, **personalizing recommendations**, and **integrating with other health data**."
+  },
+  {
+    "question": "How did the product team gather insights into user behavior and preferences?",
+    "answer": "The product team employed a combination of research methods to gather insights into user behavior and preferences, including **user interviews**, **data analysis**, and **competitive analysis**."
+  },
+  {
+    "question": "What was the key factor that contributed to the increase in user engagement after implementing the redesigned user interface?",
+    "answer": "The key factor that contributed to the increase in user engagement after implementing the redesigned user interface was the ability for users to **more easily track their progress** and **navigate the feature**."
+  },
+  {
+    "question": "How did the integration with other health data benefit users?",
+    "answer": "The integration with other health data in the Apple Health app provided users with a **comprehensive view of their health**, allowing them to make more informed decisions about their fitness and lifestyle."
+  },
+  {
+    "question": "What is the significance of a data-driven approach to product management as demonstrated in this case study?",
+    "answer": "A data-driven approach to product management is significant because it allows product teams to make informed decisions based on **user behavior**, **usage patterns**, and **market trends**. This approach can lead to the development of products that better meet the needs of users and drive business outcomes."
+  }
+]
+2024-11-08 23:51:39,607 - INFO - Successfully generated 5 Q&A pairs
+2024-11-08 23:51:39,608 - INFO - Q&A generation completed. Generated 5 pairs
+2024-11-08 23:51:39,609 - INFO - === Generate endpoint completed successfully ===
+
+2024-11-08 23:51:39,615 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:39] "POST /generate HTTP/1.1" 200 -
+2024-11-08 23:51:40,707 - INFO - Gemini API Q&A response status: 200
+2024-11-08 23:51:40,707 - INFO - Raw Q&A response: ```json
+[
+  {
+    "question": "What was the primary goal of Jane's strategy?",
+    "answer": "Jane's strategy aimed to enhance user engagement and increase the value of the SaaS platform by introducing a suite of new features that addressed customer pain points and unmet needs."
+  },
+  {
+    "question": "What steps did Jane take to gather insights for her feature development?",
+    "answer": "Jane conducted user research, including surveys and interviews, to understand customer pain points and unmet needs. This feedback informed the design and implementation of the new features."
+  },
+  {
+    "question": "How did Jane ensure that users were aware of and understood the new features?",
+    "answer": "Jane employed a comprehensive marketing and education strategy that included marketing campaigns to promote the new features, as well as in-app onboarding, support documentation, and dedicated customer success managers to facilitate user adoption."
+  },
+  {
+    "question": "What were some of the specific customer benefits realized from the new feature suite?",
+    "answer": "Customers reported feeling more engaged, productive, and connected with their teams. Additionally, there was an increase in customer satisfaction scores and a decrease in customer churn rate, indicating enhanced product stickiness and increased loyalty."
+  },
+  {
+    "question": "In what ways did the new feature suite contribute to the company's revenue?",
+    "answer": "The new feature suite contributed to a 15% increase in average revenue per user (ARPU) and an improvement in customer lifetime value (CLTV) as users became more engaged and subscribed to additional paid features."
+  }
+]
+```
+2024-11-08 23:51:40,708 - INFO - Successfully generated 5 Q&A pairs
+2024-11-08 23:51:40,708 - INFO - Q&A generation completed. Generated 5 pairs
+2024-11-08 23:51:40,708 - INFO - === Generate endpoint completed successfully ===
+
+2024-11-08 23:51:40,708 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:40] "POST /generate HTTP/1.1" 200 -
+2024-11-08 23:51:42,974 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:42] "OPTIONS /generate HTTP/1.1" 200 -
+2024-11-08 23:51:42,975 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:51:42,975 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:51:42,976 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:51:42,976 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:51:42,976 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:51:42,998 - INFO - Successfully parsed PDF, extracted 6752 characters
+2024-11-08 23:51:42,998 - INFO - Successfully processed file 1
+2024-11-08 23:51:42,998 - INFO - Storing vectors in ChromaDB...
+2024-11-08 23:51:42,998 - INFO - Storing vectors for 1 case studies
+2024-11-08 23:51:42,998 - INFO - Vectorizing text of length: 6746
+2024-11-08 23:51:43,205 - INFO - Text vectorized successfully
+2024-11-08 23:51:43,213 - WARNING - Add of existing embedding ID: 0
+2024-11-08 23:51:43,214 - WARNING - Insert of existing embedding ID: 0
+2024-11-08 23:51:43,219 - INFO - Vectors stored successfully in ChromaDB
+2024-11-08 23:51:43,220 - INFO - Finding similar case study...
+2024-11-08 23:51:43,220 - INFO - Vectorizing text of length: 40
+2024-11-08 23:51:43,229 - INFO - Text vectorized successfully
+2024-11-08 23:51:43,229 - INFO - Searching for similar case studies
+2024-11-08 23:51:43,234 - INFO - Similar case study found
+2024-11-08 23:51:43,234 - INFO - Generating new case study...
+2024-11-08 23:51:43,234 - INFO - Generating case study with Gemini API
+2024-11-08 23:51:43,234 - INFO - Sending request to Gemini API...
+2024-11-08 23:51:43,979 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:51:43,980 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:51:43,980 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:51:43,980 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:51:43,981 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:51:44,079 - INFO - Successfully parsed PDF, extracted 6752 characters
+2024-11-08 23:51:44,079 - INFO - Successfully processed file 1
+2024-11-08 23:51:44,080 - INFO - Storing vectors in ChromaDB...
+2024-11-08 23:51:44,080 - INFO - Storing vectors for 1 case studies
+2024-11-08 23:51:44,080 - INFO - Vectorizing text of length: 6746
+2024-11-08 23:51:44,411 - INFO - Text vectorized successfully
+2024-11-08 23:51:44,429 - WARNING - Add of existing embedding ID: 0
+2024-11-08 23:51:44,430 - WARNING - Insert of existing embedding ID: 0
+2024-11-08 23:51:44,433 - INFO - Vectors stored successfully in ChromaDB
+2024-11-08 23:51:44,433 - INFO - Finding similar case study...
+2024-11-08 23:51:44,433 - INFO - Vectorizing text of length: 40
+2024-11-08 23:51:44,450 - INFO - Text vectorized successfully
+2024-11-08 23:51:44,450 - INFO - Searching for similar case studies
+2024-11-08 23:51:44,454 - INFO - Similar case study found
+2024-11-08 23:51:44,454 - INFO - Generating new case study...
+2024-11-08 23:51:44,454 - INFO - Generating case study with Gemini API
+2024-11-08 23:51:44,454 - INFO - Sending request to Gemini API...
+2024-11-08 23:51:44,840 - INFO - Gemini API Q&A response status: 200
+2024-11-08 23:51:44,840 - INFO - Raw Q&A response: [
+    {
+        "question": "What was the primary objective of introducing the daily steps tracking feature in the health app?",
+        "answer": "The primary objective of introducing the daily steps tracking feature was to enhance user engagement and drive positive behavior change by providing users with a convenient and motivating way to track their physical activity."
+    },
+    {
+        "question": "How did the product development team ensure that the daily steps tracking feature met user needs?",
+        "answer": "The product development team closely examined user data and conducted extensive market research to gather insights into user needs and expectations. They took this feedback into account when designing the feature, ensuring it was seamless, intuitive, and customizable to individual goals."
+    },
+    {
+        "question": "What channels did the marketing team use to promote the daily steps tracking feature?",
+        "answer": "The marketing team used a multi-channel campaign to promote the feature, including app store optimizations, in-app notifications, content marketing on social media and healthcare blogs, and partnerships with influencers in the health and fitness space."
+    },
+    {
+        "question": "What key metrics were used to measure the success of the daily steps tracking feature?",
+        "answer": "The team identified several key metrics to measure the success of the daily steps tracking feature, including user acquisition, churn rate, daily active users (DAU), monthly active users (MAU), user engagement, and user satisfaction."
+    },
+    {
+        "question": "How did the daily steps tracking feature impact the overall value of the health app?",
+        "answer": "The daily steps tracking feature significantly enhanced the value of the health app by providing users with an additional motivating and engaging tool to track their physical activity. This led to increased user acquisition, reduced churn rate, and improved user satisfaction, demonstrating the value of the feature in promoting user health and engagement."
+    }
+]
+2024-11-08 23:51:44,841 - INFO - Successfully generated 5 Q&A pairs
+2024-11-08 23:51:44,841 - INFO - Q&A generation completed. Generated 5 pairs
+2024-11-08 23:51:44,842 - INFO - === Generate endpoint completed successfully ===
+
+2024-11-08 23:51:44,842 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:44] "POST /generate HTTP/1.1" 200 -
+2024-11-08 23:51:53,520 - INFO - Gemini API response status: 200
+2024-11-08 23:51:53,521 - INFO - Successfully generated case study of length: 3350
+2024-11-08 23:51:53,521 - INFO - Generating Q&A...
+2024-11-08 23:51:53,521 - INFO - Generating Q&A with Gemini API
+2024-11-08 23:51:53,521 - INFO - Sending request to Gemini API for Q&A...
+2024-11-08 23:51:55,860 - INFO - Gemini API response status: 200
+2024-11-08 23:51:55,861 - INFO - Successfully generated case study of length: 4503
+2024-11-08 23:51:55,862 - INFO - Generating Q&A...
+2024-11-08 23:51:55,862 - INFO - Generating Q&A with Gemini API
+2024-11-08 23:51:55,862 - INFO - Sending request to Gemini API for Q&A...
+2024-11-08 23:51:59,566 - INFO - Gemini API Q&A response status: 200
+2024-11-08 23:51:59,566 - INFO - Raw Q&A response: ```json
+[
+    {
+        "question": "What were the high-level goals set by the product team?",
+        "answer": "The product team aimed to improve user engagement and retention, increase feature adoption and usage, and enhance user satisfaction and loyalty."
+    },
+    {
+        "question": "What specific challenges did the product team face in terms of user engagement and retention?",
+        "answer": "The team faced challenges such as low feature adoption, high churn rate, and limited user feedback."
+    },
+    {
+        "question": "Describe the user segmentation strategy implemented by the product team.",
+        "answer": "The team segmented users based on their industry, company size, and usage patterns. This allowed them to tailor messaging and recommendations specifically to each segment."
+    },
+    {
+        "question": "Explain how gamification was utilized to enhance user engagement.",
+        "answer": "Gamification elements, such as progress bars and rewards, were introduced to motivate users to complete tasks and reach milestones, fostering engagement and encouraging continued use of the platform."
+    },
+    {
+        "question": "What were the key results achieved by the product team in improving user engagement and retention?",
+        "answer": "The team successfully increased feature adoption by 20%, reduced churn rate by 15%, and enhanced user satisfaction, resulting in an improved overall performance and user experience for the B2B SaaS platform."
+    }
+]
+```
+2024-11-08 23:51:59,567 - INFO - Successfully generated 5 Q&A pairs
+2024-11-08 23:51:59,567 - INFO - Q&A generation completed. Generated 5 pairs
+2024-11-08 23:51:59,567 - INFO - === Generate endpoint completed successfully ===
+
+2024-11-08 23:51:59,568 - INFO - 127.0.0.1 - - [08/Nov/2024 23:51:59] "POST /generate HTTP/1.1" 200 -
+2024-11-08 23:52:02,630 - INFO - Gemini API Q&A response status: 200
+2024-11-08 23:52:02,630 - INFO - Raw Q&A response: [
+  {
+    "question": "What are the key objectives of the daily steps tracking feature?",
+    "answer": "The key objectives of the daily steps tracking feature are to encourage users to move more by providing real-time insights into their physical activity, improve Apple Health's understanding of users' physical activity patterns to provide personalized health recommendations, and enhance the overall user experience of Apple Health by making it more convenient and engaging to track daily steps."
+  },
+  {
+    "question": "Who is the target audience for the daily steps tracking feature?",
+    "answer": "The primary target audience for the daily steps tracking feature is users who are interested in monitoring their physical activity and improving their overall health. The feature is designed to be easily accessible and user-friendly, making it suitable for users of all ages and fitness levels."
+  },
+  {
+    "question": "How will the success of the daily steps tracking feature be measured?",
+    "answer": "The success of the daily steps tracking feature will be measured using a combination of quantitative and qualitative metrics, including user acquisition and retention, user engagement, user satisfaction, and health outcomes."
+  },
+  {
+    "question": "How does Apple Health differentiate itself from its competitors?",
+    "answer": "Apple Health differentiates itself from its competitors by providing a comprehensive and integrated suite of health tracking tools within a single app, as well as strong data privacy and security measures."
+  },
+  {
+    "question": "Explain the execution plan for the daily steps tracking feature.",
+    "answer": "The execution plan for the daily steps tracking feature includes the following steps: product development, user testing, app release, marketing and promotion, and ongoing optimization."
+  }
+]
+2024-11-08 23:52:02,631 - INFO - Successfully generated 5 Q&A pairs
+2024-11-08 23:52:02,631 - INFO - Q&A generation completed. Generated 5 pairs
+2024-11-08 23:52:02,631 - INFO - === Generate endpoint completed successfully ===
+
+2024-11-08 23:52:02,636 - INFO - 127.0.0.1 - - [08/Nov/2024 23:52:02] "POST /generate HTTP/1.1" 200 -
+2024-11-08 23:52:23,579 - INFO - 127.0.0.1 - - [08/Nov/2024 23:52:23] "OPTIONS /generate HTTP/1.1" 200 -
+2024-11-08 23:52:23,582 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:52:23,582 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:52:23,582 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:52:23,582 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:52:23,583 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:52:23,607 - INFO - Successfully parsed PDF, extracted 6752 characters
+2024-11-08 23:52:23,607 - INFO - Successfully processed file 1
+2024-11-08 23:52:23,607 - INFO - Storing vectors in ChromaDB...
+2024-11-08 23:52:23,607 - INFO - Storing vectors for 1 case studies
+2024-11-08 23:52:23,607 - INFO - Vectorizing text of length: 6746
+2024-11-08 23:52:23,835 - INFO - Text vectorized successfully
+2024-11-08 23:52:23,846 - WARNING - Add of existing embedding ID: 0
+2024-11-08 23:52:23,847 - WARNING - Insert of existing embedding ID: 0
+2024-11-08 23:52:23,849 - INFO - Vectors stored successfully in ChromaDB
+2024-11-08 23:52:23,849 - INFO - Finding similar case study...
+2024-11-08 23:52:23,849 - INFO - Vectorizing text of length: 40
+2024-11-08 23:52:23,854 - INFO - Text vectorized successfully
+2024-11-08 23:52:23,854 - INFO - Searching for similar case studies
+2024-11-08 23:52:23,858 - INFO - Similar case study found
+2024-11-08 23:52:23,859 - INFO - Generating new case study...
+2024-11-08 23:52:23,859 - INFO - Generating case study with Gemini API
+2024-11-08 23:52:23,859 - INFO - Sending request to Gemini API...
+2024-11-08 23:52:34,207 - INFO - Gemini API response status: 200
+2024-11-08 23:52:34,207 - INFO - Successfully generated case study of length: 3579
+2024-11-08 23:52:34,208 - INFO - Generating Q&A...
+2024-11-08 23:52:34,208 - INFO - Generating Q&A with Gemini API
+2024-11-08 23:52:34,208 - INFO - Sending request to Gemini API for Q&A...
+2024-11-08 23:52:40,945 - INFO - Gemini API Q&A response status: 200
+2024-11-08 23:52:40,946 - INFO - Raw Q&A response: [
+  {
+    "question": "What were the key initiatives implemented as part of the product strategy?",
+    "answer": "The key initiatives implemented as part of the product strategy included simplifying the user interface, introducing personalized recommendations powered by AI, and enhancing data analytics capabilities within the platform."
+  },
+  {
+    "question": "How did the EZ CRM team define success for their product strategy?",
+    "answer": "The EZ CRM team defined success for their product strategy by establishing key metrics to evaluate the effectiveness of their improvements. These metrics included user engagement, user retention, conversion rate to premium plans, and customer satisfaction."
+  },
+  {
+    "question": "What user research methods were utilized to inform the product strategy?",
+    "answer": "The EZ CRM team conducted user research through interviews and surveys to gain insights into the pain points and motivations of their customers. This research helped them identify user needs and develop a strategy that addressed those needs."
+  },
+  {
+    "question": "How did the product strategy improvements impact key metrics?",
+    "answer": "Within the first quarter of launch, the product strategy initiatives led to a significant increase in user engagement by 25%, improvement in user retention by 15%, a 10% rise in conversion rate to premium plans, and record high customer satisfaction scores."
+  },
+  {
+    "question": "What lessons were learned throughout the implementation of the product strategy?",
+    "answer": "The EZ CRM team learned several valuable lessons throughout the implementation of the product strategy. These lessons included the importance of conducting thorough user research, prioritizing user experience, leveraging personalization to enhance user value, empowering users with data analytics, and embracing continuous improvement through ongoing user feedback and product enhancements."
+  }
+]
+2024-11-08 23:52:40,947 - INFO - Successfully generated 5 Q&A pairs
+2024-11-08 23:52:40,947 - INFO - Q&A generation completed. Generated 5 pairs
+2024-11-08 23:52:40,947 - INFO - === Generate endpoint completed successfully ===
+
+2024-11-08 23:52:40,948 - INFO - 127.0.0.1 - - [08/Nov/2024 23:52:40] "POST /generate HTTP/1.1" 200 -
+2024-11-08 23:53:17,115 - INFO - 127.0.0.1 - - [08/Nov/2024 23:53:17] "OPTIONS /generate HTTP/1.1" 200 -
+2024-11-08 23:53:17,118 - INFO - 
+=== Starting generate endpoint ===
+2024-11-08 23:53:17,119 - INFO - Request received: {'parameters': {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}}
+2024-11-08 23:53:17,119 - INFO - Parameters received: {'industry': 'Technology', 'role': 'Product Manager', 'difficulty': 'Easy', 'focus_area': 'Product Strategy', 'company_size': 'Startup', 'product_type': 'B2B SaaS'}
+2024-11-08 23:53:17,119 - INFO - Processing file 1/1: ./Data/case_study1.pdf
+2024-11-08 23:53:17,119 - INFO - Attempting to parse PDF: ./Data/case_study1.pdf
+2024-11-08 23:53:17,144 - INFO - Successfully parsed PDF, extracted 6752 characters
+2024-11-08 23:53:17,144 - INFO - Successfully processed file 1
+2024-11-08 23:53:17,144 - INFO - Storing vectors in ChromaDB...
+2024-11-08 23:53:17,144 - INFO - Storing vectors for 1 case studies
+2024-11-08 23:53:17,144 - INFO - Vectorizing text of length: 6746
+2024-11-08 23:53:17,450 - INFO - Text vectorized successfully
+2024-11-08 23:53:17,462 - WARNING - Add of existing embedding ID: 0
+2024-11-08 23:53:17,464 - WARNING - Insert of existing embedding ID: 0
+2024-11-08 23:53:17,469 - INFO - Vectors stored successfully in ChromaDB
+2024-11-08 23:53:17,469 - INFO - Finding similar case study...
+2024-11-08 23:53:17,469 - INFO - Vectorizing text of length: 40
+2024-11-08 23:53:17,479 - INFO - Text vectorized successfully
+2024-11-08 23:53:17,479 - INFO - Searching for similar case studies
+2024-11-08 23:53:17,493 - INFO - Similar case study found
+2024-11-08 23:53:17,493 - INFO - Generating new case study...
+2024-11-08 23:53:17,493 - INFO - Generating case study with Gemini API
+2024-11-08 23:53:17,493 - INFO - Sending request to Gemini API...
+2024-11-08 23:53:27,684 - INFO - Gemini API response status: 200
+2024-11-08 23:53:27,685 - INFO - Successfully generated case study of length: 3409
+2024-11-08 23:53:27,685 - INFO - Generating Q&A...
+2024-11-08 23:53:27,685 - INFO - Generating Q&A with Gemini API
+2024-11-08 23:53:27,685 - INFO - Sending request to Gemini API for Q&A...
+2024-11-08 23:53:34,611 - INFO - Gemini API Q&A response status: 200
+2024-11-08 23:53:34,612 - INFO - Raw Q&A response: [
+    {
+        "question": "What was one key strategy implemented to improve the user experience?",
+        "answer": "To enhance the user experience, [Product Name] streamlined the onboarding process and made the tool intuitive and user-friendly. Guided onboarding tours were introduced to assist users in getting started quickly and efficiently."
+    },
+    {
+        "question": "What was the purpose of introducing personalization options?",
+        "answer": "Personalization options were introduced to empower users to tailor the tool to their individual preferences and team workflows. This enabled them to customize their workspaces, set up personalized notifications, and configure tool permissions, ultimately enhancing their productivity and satisfaction."
+    },
+    {
+        "question": "How did data analytics contribute to the product strategy?",
+        "answer": "Data analytics played a crucial role in the product strategy by providing insights into user activity and team performance. Through a dedicated dashboard, these analytics allowed the product team to identify areas for improvement, make data-driven decisions, and continuously refine the user experience."
+    },
+    {
+        "question": "What were the primary high-level goals established for the product?",
+        "answer": "[Product Name] set out to achieve three high-level goals: improving team productivity and efficiency, enhancing user satisfaction and experience, and driving long-term user engagement and retention. These goals served as guiding principles for the product development and implementation process."
+    },
+    {
+        "question": "How did collaborative features contribute to the product's success?",
+        "answer": "The integration of collaborative features, such as real-time document editing, task management, and group chat, fostered seamless team collaboration. These features facilitated effective communication and coordination, enhancing overall team productivity and efficiency."
+    }
+]
+2024-11-08 23:53:34,612 - INFO - Successfully generated 5 Q&A pairs
+2024-11-08 23:53:34,613 - INFO - Q&A generation completed. Generated 5 pairs
+2024-11-08 23:53:34,613 - INFO - === Generate endpoint completed successfully ===
+
+2024-11-08 23:53:34,614 - INFO - 127.0.0.1 - - [08/Nov/2024 23:53:34] "POST /generate HTTP/1.1" 200 -
